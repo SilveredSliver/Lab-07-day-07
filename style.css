@@ -1,30 +1,53 @@
 * {
-  background-color: grey;
-  font-size: 20px;
-  outline-style: dashed;/*for block visual purposes*/
+  /*background-color: white;*/
+  font-size: 30px;
+  width: auto;
+  height: 100;
+  /*outline-style: dashed;/*for block visual purposes*/*/
 }
-
-body {
-  outline-width: thin;
-  outline: 1px;
-  outline-color: white;
+html {
+  background-image: url(/home/aaron/codefellows/201d23/week2/day-07/Lab-07-day-07/Dollarphotoclub_57954146.jpg);
 }
 
 img {
+  margin-left: 10%;
   width: 50%;
-  height: auto;
+  outline-style: solid;
+  border-radius: 30px;
 }
 
 header {
+  background-color: salmon;
+  border-radius: 30px;
+  color: blue;
+  font-style: oblique;
+  font-weight: bold;
   font-size: 40px;
 }
-
-header2 {
+body {
 
 }
+#salmonStore {
+  margin-left: 23%;
+  margin-top: 2%;
+  outline-style: solid;
+  background-color: transparent;
+}
 
+fieldset {
+  color: blue;
+  background-color: salmon;
+}
 
-h1 {
+label {
+  color:black;
+}
+
+textarea {
+  background-color: salmon;
+}
+
+/*h1 {
   color: pink;
 }
 
@@ -42,4 +65,4 @@ h16 {
 
 h21 {
   color: purple;
-}
+}*/
