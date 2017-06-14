@@ -68,11 +68,13 @@ Store.prototype.render = function() {
     storeTable.appendChild(trEl);
   }
 }
+
 new Store('Pike Place Market',14);
 new Store('SeaTac Airport',14);
 new Store('Seattle Center',14);
 new Store('Capitol Hill',14);
 new Store('Alki',14);
+
 
 function renderAllStores() {
   for (var i = 0; i < allStores.length; i++) {
@@ -80,6 +82,7 @@ function renderAllStores() {
   }
 }
 renderAllStores();
+
 //
 // var storeHours = ['6-AM', '7-AM', '8-AM', '9-AM', '10-AM','11-AM','12-PM','1-PM','2-PM','3-PM','4-PM','5-PM','6-PM','7-PM'];
 //
