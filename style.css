@@ -1,0 +1,45 @@
+* {
+  background-color: grey;
+  font-size: 20px;
+  outline-style: dashed;/*for block visual purposes*/
+}
+
+body {
+  outline-width: thin;
+  outline: 1px;
+  outline-color: white;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+header {
+  font-size: 40px;
+}
+
+header2 {
+
+}
+
+
+h1 {
+  color: pink;
+}
+
+h6 {
+  color: orange;
+}
+
+h11 {
+  color: green;
+}
+
+h16 {
+  color: blue;
+}
+
+h21 {
+  color: purple;
+}
